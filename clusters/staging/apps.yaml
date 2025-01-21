@@ -4,9 +4,9 @@ metadata:
   name: apps
   namespace: flux-system
 spec:
-  interval: 5m
+  interval: 1m0s
   retryInterval: 1m
-  timeout: 3m
+  timeout: 5m
   sourceRef:
     kind: GitRepository
     name: flux-system
